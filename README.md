@@ -24,10 +24,10 @@ ros-melodic-rqt-image-view ros-melodic-navigation
 ```
 ~$ git clone https://github.com/uhobeike/turtlebot3_practice.git
 ~$ cd ~/turtlebot3_practice/src
-~/turtlebot3_practice/src$ git clone https://github.com/ROBOTIS-GIT/turtlebot3.git && \
-git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git && \
-git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git && \
-git clone https://github.com/ROBOTIS-GIT/turtlebot3_gazebo_plugin.git
+~/turtlebot3_practice/src$ git clone https://github.com/uhobeike/turtlebot3.git && \
+git clone https://github.com/uhobeike/turtlebot3_msgs.git && \
+git clone https://github.com/uhobeike/turtlebot3_simulations.git && \
+git clone https://github.com/uhobeike/turtlebot3_gazebo_plugin.git
 ~/turtlebot3_practice/src$ cd ..　&& catkin_make
 ```
 
