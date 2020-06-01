@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ikebe/turtlebot3_ws/build_isolated/turtlebot3_msgs/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_47ecb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47ecb.dir/build.make CMakeFiles/cmTC_47ecb.dir/build
+make[1]: ディレクトリ '/home/ikebe/turtlebot3_ws/build_isolated/turtlebot3_msgs/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_47ecb.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_47ecb.dir/CheckSymbolExists.c.o   -c /home/ikebe/turtlebot3_ws/build_isolated/turtlebot3_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_47ecb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47ecb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_47ecb.dir/CheckSymbolExists.c.o  -o cmTC_47ecb 
+CMakeFiles/cmTC_47ecb.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x1b): `pthread_create' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_47ecb.dir/build.make:97: recipe for target 'cmTC_47ecb' failed
+make[1]: *** [cmTC_47ecb] Error 1
+make[1]: ディレクトリ '/home/ikebe/turtlebot3_ws/build_isolated/turtlebot3_msgs/CMakeFiles/CMakeTmp' から出ます
+Makefile:126: recipe for target 'cmTC_47ecb/fast' failed
+make: *** [cmTC_47ecb/fast] Error 2
+
+File /home/ikebe/turtlebot3_ws/build_isolated/turtlebot3_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ikebe/turtlebot3_ws/build_isolated/turtlebot3_msgs/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e1fe0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1fe0.dir/build.make CMakeFiles/cmTC_e1fe0.dir/build
+make[1]: ディレクトリ '/home/ikebe/turtlebot3_ws/build_isolated/turtlebot3_msgs/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_e1fe0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e1fe0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e1fe0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1fe0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e1fe0.dir/CheckFunctionExists.c.o  -o cmTC_e1fe0 -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e1fe0.dir/build.make:97: recipe for target 'cmTC_e1fe0' failed
+make[1]: *** [cmTC_e1fe0] Error 1
+make[1]: ディレクトリ '/home/ikebe/turtlebot3_ws/build_isolated/turtlebot3_msgs/CMakeFiles/CMakeTmp' から出ます
+Makefile:126: recipe for target 'cmTC_e1fe0/fast' failed
+make: *** [cmTC_e1fe0/fast] Error 2
+
+

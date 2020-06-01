@@ -1,0 +1,8 @@
+prefix=/home/ikebe/turtlebot3_ws/devel
+
+Name: goal_send
+Description: Description of goal_send
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
