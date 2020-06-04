@@ -2,4 +2,4 @@
 source_root_dir = '/home/ikebe/turtlebot3_ws/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/home/ikebe/turtlebot3_ws/devel;/opt/ros/melodic'.split(';') if '/home/ikebe/turtlebot3_ws/devel;/opt/ros/melodic' != '' else []
+underlay_workspaces = '/home/ikebe/carto_ws/devel_isolated/cartographer_ros;/home/ikebe/carto_ws/install_isolated;/home/ikebe/turtlebot3_ws/devel;/opt/ros/melodic'.split(';') if '/home/ikebe/carto_ws/devel_isolated/cartographer_ros;/home/ikebe/carto_ws/install_isolated;/home/ikebe/turtlebot3_ws/devel;/opt/ros/melodic' != '' else []

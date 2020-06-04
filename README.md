@@ -34,3 +34,8 @@ git clone https://github.com/uhobeike/turtlebot3_gazebo_plugin.git
 cartgrapherのインストール下記のリンクより
 
 https://beike.hatenablog.jp/entry/2020/04/30/224026
+
+turtlebot3 e-manial
+
+http://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#ros-1-simulation
+
