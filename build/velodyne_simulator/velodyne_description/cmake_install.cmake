@@ -56,7 +56,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_description" TYPE DIRECTORY FILES
     "/home/ikebe/turtlebot3_ws/src/velodyne_simulator/velodyne_description/launch"
     "/home/ikebe/turtlebot3_ws/src/velodyne_simulator/velodyne_description/meshes"
+    "/home/ikebe/turtlebot3_ws/src/velodyne_simulator/velodyne_description/rviz"
     "/home/ikebe/turtlebot3_ws/src/velodyne_simulator/velodyne_description/urdf"
+    "/home/ikebe/turtlebot3_ws/src/velodyne_simulator/velodyne_description/world"
     )
 endif()
 

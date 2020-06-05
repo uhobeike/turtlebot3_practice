@@ -311,8 +311,11 @@ velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.
  /usr/include/gazebo-9/gazebo/physics/World.hh
  /usr/include/gazebo-9/gazebo/physics/WorldState.hh
  /usr/include/gazebo-9/gazebo/physics/physics.hh
+ /usr/include/gazebo-9/gazebo/plugins/GpuRayPlugin.hh
  /usr/include/gazebo-9/gazebo/plugins/RayPlugin.hh
  /usr/include/gazebo-9/gazebo/rendering/RenderTypes.hh
+ /usr/include/gazebo-9/gazebo/sensors/CameraSensor.hh
+ /usr/include/gazebo-9/gazebo/sensors/GpuRaySensor.hh
  /usr/include/gazebo-9/gazebo/sensors/RaySensor.hh
  /usr/include/gazebo-9/gazebo/sensors/Sensor.hh
  /usr/include/gazebo-9/gazebo/sensors/SensorTypes.hh

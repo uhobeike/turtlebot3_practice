@@ -310,8 +310,11 @@ velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.
 velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o: /usr/include/gazebo-9/gazebo/physics/World.hh
 velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o: /usr/include/gazebo-9/gazebo/physics/WorldState.hh
 velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o: /usr/include/gazebo-9/gazebo/physics/physics.hh
+velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o: /usr/include/gazebo-9/gazebo/plugins/GpuRayPlugin.hh
 velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o: /usr/include/gazebo-9/gazebo/plugins/RayPlugin.hh
 velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o: /usr/include/gazebo-9/gazebo/rendering/RenderTypes.hh
+velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o: /usr/include/gazebo-9/gazebo/sensors/CameraSensor.hh
+velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o: /usr/include/gazebo-9/gazebo/sensors/GpuRaySensor.hh
 velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o: /usr/include/gazebo-9/gazebo/sensors/RaySensor.hh
 velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o: /usr/include/gazebo-9/gazebo/sensors/Sensor.hh
 velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o: /usr/include/gazebo-9/gazebo/sensors/SensorTypes.hh
