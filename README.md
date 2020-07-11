@@ -8,5 +8,8 @@ turtlebot3_3dに移動しました。
 
 https://github.com/uhobeike/turtlebot3_3d
 
+こういったパッケージもあります。
+
+https://github.com/uhobeike/turtlebot3_aws
 
 
